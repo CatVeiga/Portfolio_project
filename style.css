@@ -1,0 +1,147 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background-color: #666;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+	background-color: #fff;
+}
+/*Header Section*/
+.header {
+	background-color: #fff;
+	height: 140px;
+	border-bottom: 4px solid #fb4;
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.55);
+	-moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.55);
+	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.55);
+}
+
+.header_logo, .id_header {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.logo_img {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.header_txt {
+	font-size: 30px;
+	text-align: right;
+	text-transform: uppercase;
+	font-family: 'Anton', sans-serif;
+}
+
+.header_desc {
+	font-size: 16px;
+	text-align: right;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+/*Hero image*/
+.hero {
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.55);
+	-moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.55);
+	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.55);
+}
+
+.hero_img {
+	background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a20bc6324f6ef2969d9a7cae56b8d4d1&auto=format&fit=crop&w=1350&q=80");
+	height: 500px;
+	position: relative;
+	text-align: center;
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+/*Works section*/
+.portfolio {
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: #fff;
+}
+
+.port_title {
+	padding: 10px;
+}
+
+.port_txt {
+	font-size: 24px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #666;
+	font-weight: bold;	
+	transition: all 0.3s;
+}
+
+.port_txt:hover {
+	color: #fb4;
+}
+
+.work {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.work_title {
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+
+.work_title:hover {
+	color: #fb4;
+}
+
+.work_img {
+	width: 100%;
+	border-radius: 5px;
+}
+/*footer*/ 
+.footer {
+	margin-top: 20px;
+	background-color: #fb4;
+	border-radius: 5px;
+	padding: 10px;
+}
+ 
+.social_media {
+	text-align: center;
+	padding: 10px;
+}
+
+.fa-facebook-f, .fa-github, .fa-codepen {
+	color: #666;
+	padding-right: 10px;
+	transition: all 0.3s;
+	
+}
+
+.fa-facebook-f:hover, .fa-github:hover, .fa-codepen:hover {
+	transform: rotateY(90deg);
+	transition: all 0.3s ease-out;
+}
+
+.contact {
+	margin-top: 20px;
+	padding: 10px;	
+}
+
+.contact_txt {
+	text-transform: uppercase;
+	text-align: center;
+}

@@ -6,7 +6,7 @@ This was made only for Udacity course.
 
 # Instructions
 
-Click on the link and enjoy ;)
+Click on the link and enjoy https://cveiga819.github.io/Portfolio_project/ ;)
 
 ## Feaures
 

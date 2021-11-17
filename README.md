@@ -9,7 +9,7 @@ This was one of my first projects at Udacity, so please take this in mind.
 
 # Instructions
 
-Click on the link and enjoy https://cveiga819.github.io/Portfolio_project/ ;)
+Click on the link and enjoy https://catveiga.github.io/Portfolio_project/ ;)
 
 ## Feaures
 
